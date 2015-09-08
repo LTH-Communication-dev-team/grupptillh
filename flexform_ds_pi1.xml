@@ -1,0 +1,62 @@
+<T3DataStructure>
+ <meta>
+       <langDisable>1</langDisable>
+ </meta>
+<sheets>
+  <sDEF>
+   <ROOT>
+    <TCEforms>
+     <sheetTitle>General</sheetTitle>
+    </TCEforms>
+    <type>array</type>
+<el>
+<kurskod>
+<TCEforms>
+<label>Kurskod</label>
+<config>
+<type>input</type>
+<size>30</size>
+</config>
+</TCEforms>
+</kurskod>
+<type>
+<TCEforms>
+<label>Ange typ av anmalan</label>
+<config>
+<type>select</type>
+<items type="array">
+<numIndex index="0" type="array">
+<numIndex index="0">Student anmaler sig till grupp</numIndex>
+<numIndex index="1">anmala</numIndex>
+</numIndex>
+<numIndex index="1" type="array">
+<numIndex index="0">Student skapar grupp</numIndex>
+<numIndex index="1">skapa</numIndex>
+</numIndex>
+</items>
+<maxitems>1</maxitems>
+<size>1</size>
+<default>0</default>
+<selectedListStyle>width:200px</selectedListStyle>
+<itemListStyle>width:200px</itemListStyle>
+</config>
+</TCEforms>
+</type>
+<moment>
+<TCEforms>
+<label>Valda moment</label>
+<config>
+<type>select</type>			 					
+<foreign_table>tx_grupptillh_moment</foreign_table>
+<multiple>0</multiple>
+<size>7</size>
+<maxitems>115</maxitems>
+<minItems>0</minItems>
+</config>
+</TCEforms>
+</moment>
+</el>
+</ROOT>
+</sDEF>
+</sheets>
+</T3DataStructure>

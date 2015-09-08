@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.fieldset {
+	font-family:verdana;
+	font-size:0.8em;
+	width:520px;
+	margin-left:10px;
+	padding-right:5px;
+	padding-bottom:15px;
+	padding-left: 15px;
+	border: 1px solid #a5bdd6;
+}
+
+.midContent {
+	clear:both; 
+	font-weight:bold;
+	width:500px;
+	height:30px;
+	background-color:#dedede;
+	padding-top:10px;
+	margin-top:10px;
+	font-size:0.9em;
+}
+
+.result {
+	margin-top:10px;
+}
+
+.tx_grupptillh_message {
+	width: 505px;
+	height: 65px;
+	/*font-weight:bold;*/
+	font-size:0.9em;
+	line-height:1.6em;
+	background-color: #DEDEDE;
+	padding-top:15px;
+}
+
+.tx_grupptillh_listbox_grupp {
+	float:left;
+	width:183px;
+}
+
+.tx_grupptillh_listbox_moment {
+	float:left;
+	width:163px;
+}
+
+.tx_grupptillh_listbox_student {
+	float:left;
+	width:173px;
+}

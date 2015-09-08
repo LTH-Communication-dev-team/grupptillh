@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'grupptillh'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_grupptillh_kurs">Grupptillhorighet-Kurs</label>
+			<label index="tx_grupptillh_kurs.kurskod">Kurskod</label>
+			<label index="tx_grupptillh_kurs.title">Title</label>
+			<label index="tx_grupptillh_grupp">Grupptillhorighet-Grupp</label>
+			<label index="tx_grupptillh_grupp.title">Title</label>
+			<label index="tx_grupptillh_grupp.mid">Moment</label>
+			<label index="tx_grupptillh_grupp.maxantal">Maxantal</label>
+			<label index="tx_grupptillh_grupp.members">Members</label>
+			<label index="tx_grupptillh_grupp.owner">Owner</label>
+			<label index="tx_grupptillh_grupp_student">Grupptillhorighet-Grupp_student</label>
+			<label index="tx_grupptillh_grupp_student.gid">Grupp</label>
+			<label index="tx_grupptillh_grupp_student.sid">Student</label>
+			<label index="tx_grupptillh_student">Grupptillhorighet-Student</label>
+			<label index="tx_grupptillh_student.fnamn">Fnamn</label>
+			<label index="tx_grupptillh_student.enamn">Enamn</label>
+			<label index="tx_grupptillh_student.epost">Epost</label>
+			<label index="tx_grupptillh_student.telefon">Telefon</label>
+			<label index="tx_grupptillh_moment">Grupptillhorighet-Moment</label>
+			<label index="tx_grupptillh_moment.kid">Kurs</label>
+			<label index="tx_grupptillh_moment.title">Title</label>
+			<label index="tx_grupptillh_moment.grouptype.I.0">Student anmaler sig sjalv</label>
+			<label index="tx_grupptillh_moment.grouptype.I.1">Student anmaler sig sjalv och andra</label>
+			<label index="tx_grupptillh_moment.grouptype">Grouptype</label>
+			<label index="tt_content.list_type_pi1">Grupptillhorighet</label>
+		</languageKey>
+	</data>
+</T3locallang>
