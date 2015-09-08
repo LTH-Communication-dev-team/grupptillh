@@ -47,6 +47,8 @@ class tx_grupptillh_pi1 extends tslib_pibase {
 		$this->conf=$conf;
 		$this->pi_setPiVarDefaults();
 		$this->pi_loadLL();
+                
+                setcookie("fe_typo_dummyuser", "dummyuser", time()+3600, "/");
 		
 		$this->pi_initPIflexForm();
 		$piFlexForm = $this->cObj->data["pi_flexform"];
